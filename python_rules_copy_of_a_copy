@@ -12,6 +12,8 @@ def update_and_show_counter(counter):
 
     counter =+ 8
     print(counter)
+    print("random debug printout")
+    print("I don't like the printout above")
 
 
 counter = 10
@@ -50,3 +52,4 @@ def index2():
     return complicated_code(request.args.get("input"))
  
 print("What a heroic effort!")
+print("I'm trying to tell a story with my commits. I wonder how messy this will be")
